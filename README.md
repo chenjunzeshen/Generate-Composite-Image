@@ -15,14 +15,15 @@
   use_qa_adjust_keywords.py：使用ERNIE自由问答实现造句功能
 
 ## 使用说明：
-  1、运行main.py文件  
+  1、在get_ernie_vilg_pic.py与use_qa_adjust_keywords.py中补充API Key与Secret Key  
+  2、运行main.py文件  
 　　python main.py  
-  2、输入分词方案及内容信息  
+  3、输入分词方案及内容信息  
 　　分词方案：LAC、jieba、jieba_use_paddle、key_words  
 　　key_words为自己输入关键词,关键词用逗号隔开  
 　　例： LAC 太阳依傍山峦渐渐下落，黄河向着大海滔滔流趟。  
 　　　　jieba 太阳依傍山峦渐渐下落，黄河向着大海滔滔流趟。  
 　　　　jieba_use_paddle 太阳依傍山峦渐渐下落，黄河向着大海滔滔流趟。  
 　　　　key_words 太阳,山峦,黄河,大海  
-  3、提示是否使用造句功能，输入“yes”为使用，否则不使用  
-  4、操作完毕（ERNIE-ViLG生成的图像保存在save_img文件夹，整合后的图像保存在result_pic文件夹）
+  4、提示是否使用造句功能，输入“yes”为使用，否则不使用  
+  5、操作完毕（ERNIE-ViLG生成的图像保存在save_img文件夹，整合后的图像保存在result_pic文件夹）
