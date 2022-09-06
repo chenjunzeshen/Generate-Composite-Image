@@ -1,8 +1,0 @@
-opencv_python
-numpy
-wenxin_api
-jieba
-paddle
-LAC
-PIL
-urllib
